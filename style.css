@@ -1,0 +1,42 @@
+*{
+  margin: 2%;
+  padding: 2%;
+  box-sizing: border-box;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(29, 232, 232);
+    background-image: -moz-linear-gradient('https://www.feedz.com.br/blog/wp-content/uploads/2021/04/piadas-para-descontrair-no-trabalho.png');
+    text-align: center;
+    padding: 20px;
+  }
+
+  
+  h1 {
+    color: #333;
+    
+  }
+  
+  button {
+    padding:20px;
+    margin-top: 10px;
+    background-color: #068bf8;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: blue;
+  } 
+  
+  #resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 5px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
